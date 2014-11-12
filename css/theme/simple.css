@@ -67,7 +67,7 @@ body {
   text-shadow: none; }
 
 .reveal section[data-background="#f05b62"] h2, .reveal section[data-background="#f05b62"] h1 {color: #fafafa;}
-.reveal h1 {margin: 0 0 30px; font-family: "Gotham-Bold"; font-size: 3.75em;}
+.reveal h1 {margin: 0 0 30px; font-family: "Gotham-Bold"; font-size: 3em;}
 .reveal h2 {font-family: "Gotham-Book";}
 
 /*********************************************
@@ -110,6 +110,8 @@ body {
   background: rgba(255, 255, 255, 0.2);
   border-color:  #f05b62;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.55); }
+
+.reveal section img.no-border {background: transparent; border: none; box-shadow: none;}
 
 /*********************************************
  * NAVIGATION CONTROLS
