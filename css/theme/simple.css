@@ -67,7 +67,7 @@ body {
   text-shadow: none; }
 
 .reveal section[data-background="#f05b62"] h2, .reveal section[data-background="#f05b62"] h1 {color: #fafafa;}
-.reveal h1 {margin: 0 0 30px; font-family: "Gotham-Bold";}
+.reveal h1 {margin: 0 0 30px; font-family: "Gotham-Bold"; font-size: 3.75em;}
 .reveal h2 {font-family: "Gotham-Book";}
 
 /*********************************************
@@ -180,3 +180,8 @@ body {
     vertical-align: middle;
 }
 .reveal footer span {color: #f05b62;}
+
+.green {color: #92BB44;}
+.blue {color: #00A9B4;}
+.yellow {color: #EDAB23}
+.maroon {color: #8B0036;}
