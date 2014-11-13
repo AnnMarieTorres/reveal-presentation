@@ -67,8 +67,9 @@ body {
   text-shadow: none; }
 
 .reveal section[data-background="#f05b62"] h2, .reveal section[data-background="#f05b62"] h1 {color: #fafafa;}
-.reveal h1 {margin: 0 0 30px; font-family: "Gotham-Bold"; font-size: 3em;}
+.reveal h1 {margin: 0 0 30px; font-family: "Gotham-Bold"; font-size: 3em; line-height: 1.2em;}
 .reveal h2 {font-family: "Gotham-Book";}
+.reveal section[data-background*="images"] h1 {color: #fafafa;  text-shadow: 0 1px 0 #cccccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbbbbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaaaaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 20px 20px rgba(0, 0, 0, 0.15); }}
 
 /*********************************************
  * LINKS
@@ -183,7 +184,7 @@ body {
 }
 .reveal footer span {color: #f05b62;}
 
-.green {color: #92BB44;}
-.blue {color: #00A9B4;}
-.yellow {color: #EDAB23}
-.maroon {color: #8B0036;}
+.green, .reveal h1.green, .reveal h2.green, .reveal h3.green, .reveal h4.green, .reveal h5.green, .reveal h6.green  {color: #92BB44;}
+.blue, .reveal h1.blue, .reveal h2.blue, .reveal h3.blue, .reveal h4.blue, .reveal h5.blue, .reveal h6.blue  {color: #00A9B4;}
+.yellow, .reveal h1.yellow, .reveal h2.yellow, .reveal h3.yellow, .reveal h4.yellow, .reveal h5.yellow, .reveal h6.yellow   {color: #EDAB23}
+.maroon, .reveal h1.maroon, .reveal h2.maroon, .reveal h3.maroon, .reveal h4.maroon, .reveal h5.maroon, .reveal h6.maroon   {color: #8B0036;}
