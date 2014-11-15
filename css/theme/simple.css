@@ -188,3 +188,11 @@ body {
 .blue, .reveal h1.blue, .reveal h2.blue, .reveal h3.blue, .reveal h4.blue, .reveal h5.blue, .reveal h6.blue  {color: #00A9B4;}
 .yellow, .reveal h1.yellow, .reveal h2.yellow, .reveal h3.yellow, .reveal h4.yellow, .reveal h5.yellow, .reveal h6.yellow   {color: #EDAB23}
 .maroon, .reveal h1.maroon, .reveal h2.maroon, .reveal h3.maroon, .reveal h4.maroon, .reveal h5.maroon, .reveal h6.maroon   {color: #8B0036;}
+
+.two-column {width: 45%; padding: 1%; float: left;}
+.three-column {width: 30%; padding: 1%; float: left;}
+
+.reveal a {color: #00A9B4;}
+.reveal a:active {background: #00A9B4; color: white; text-decoration: none;}
+.reveal a:visited {color: #92BB44;}
+.reveal a:hover {background: #00A9B4; color: white; text-decoration: none;}
